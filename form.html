@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>PPI</title>
+</head>
+
+<body>
+    <h2 id="titulo">Preencha o formulário</h2>
+    <!--form com campo de texto-->
+    <div>
+    <form>
+        <label for="nome">
+            Nome completo:
+        </label>
+            <input
+                id="nome"
+                autofocus
+                type="text"
+                placeholder="Nome completo"
+            >
+        <button>
+            Enviar
+        </button>
+    </form>
+</div>
+
+<!-- form com campo de número-->
+<div>
+    <form>
+        <label for="quantidadedepets">Quantidade de pets:</label>
+            <input
+                id="quantidadedepets"
+                type="number"
+                placeholder="qtd"
+            >
+        <button>Enviar</button>
+    </form>
+</div>
+
+<!-- form com campo de cor-->
+<div>
+    <form>
+        <label for="corfavorita">Cor favorita:</label>
+            <input
+                id="corfavorita"
+                type="color"
+                placeholder="cor fav"
+            >
+        <button onclick=>Enviar</button>
+    </form>
+</div>
+
+<!--form com campo de senha-->
+<div>
+    <form>
+        <label for="senha">
+            Senha: 
+        </label>
+            <input 
+                id="senha"
+                type="password"
+                placeholder="senha"
+            >
+        <button id="">
+            Enviar
+        </button>
+    </form>
+</div>
+</body>
+<script src="javascript.js"></script>
+</html>
