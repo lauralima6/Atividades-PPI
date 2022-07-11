@@ -1,26 +1,43 @@
-html,body{
-    width: 100%;
-    height: 100%;
+* {
+    font-size: 20px;
+    padding: 0;
+    border-width: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-#controle{
-    float: left;
+
+:root {
+    --cor-principal: #E635B5;
+    --cor-principal-escura: #991473;
+    --cor-principal-clara: #FF54CF;
+    --cor-secundaria: #1B9905;
+    --cor-secundaria-clara: #4FE635;
+    --cor-texto-claro: #EEEEEE;
+    --cor-texto-escuro: #282831;
+    --cor-fundo-escuro: #282831;
+}
+
+body {
+    background-color: var(--cor-principal-clara);
+    color: var(--cor-texto-claro);
+}
+
+h1,
+h2 {
     text-align: center;
 }
-#controle div button{
-margin-left: 15px;
-margin-right: 15px;
+main{
+    background-color: var(--cor-principal-escura);
+    border-radius: 8px;
+    padding: 32px;
 }
-#cenario{
-    position: relative;
-    width: 60%;
-    height: 60%;
-    background-color:#48c;
-    margin: auto;
-    margin-top: 50px;
+button{
+    border-radius: 8px;
+    color: var(--cor-texto-claro);
+    background-color: var(--cor-fundo-escuro);
+    padding: 0.5em;
+    float: left;
 }
-#pontinho{
-    position: absolute;
-    background-color: black;
-    width: 30px;
-    height: 30px;
+table{
+    width: 100%;
 }
