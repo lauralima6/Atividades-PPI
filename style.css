@@ -1,0 +1,26 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#controle{
+    float: left;
+    text-align: center;
+}
+#controle div button{
+margin-left: 15px;
+margin-right: 15px;
+}
+#cenario{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background-color:#48c;
+    margin: auto;
+    margin-top: 50px;
+}
+#pontinho{
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
